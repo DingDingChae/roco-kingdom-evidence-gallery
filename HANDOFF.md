@@ -11,7 +11,9 @@ Publish a separate public evidence gallery for reviewed captures of the Roco Kin
 - The 390×844 capture time is validated as 2026-09-25 06:00:25.889 UTC. The 320×568 capture date is validated as 2026-09-25 UTC; its time is unavailable.
 - The two original captures remain production version 1 evidence with timestamps unavailable.
 - The universal per-surface interface contract remains unverified. No redesign or new capture was performed.
-- Source changes and hosted deployment are not yet verified. The existing Sites project is registered, but no version has been saved or deployed.
+- Source revision `9cac9f7990934a83b84b6b7ea0dc2d7c8d7a18fc` is on public `main`, verified with `git ls-remote`.
+- Hosted publication is blocked. Saving a Sites version for the exact pushed SHA returned `repository_branch_not_found`, despite the gallery source `main` ref existing. The existing project response does not expose its configured source repository or branch when no source credential is present, so the mismatch cannot be resolved from verified fields.
+- The existing Sites project remains `custom` with one allowed user, zero groups, zero external visitors, no live URL, and no saved versions. Its access was not changed. No version was saved or deployed.
 
 ## Evidence
 
@@ -25,6 +27,6 @@ Publish a separate public evidence gallery for reviewed captures of the Roco Kin
 
 ## Remaining
 
-- Pre-dew and dew the source to `main`, then verify the hosted `main` ref.
-- Save and deploy gallery edition 2 through the existing Sites project, change its access to public, and verify anonymous page access and each of the four image requests separately.
+- Resolve the existing Sites source binding without changing the private guide repository or creating an unapproved credential, then save and deploy gallery edition 2 through an eligible public project.
+- Verify anonymous page access and each of the four image requests separately after publication.
 - The gallery remains unpublished until live page and all four image responses are verified. The broader UI contract remains incomplete even after publication.
