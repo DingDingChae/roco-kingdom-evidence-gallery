@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "galleryVersion": 1,
+  "sourceGuide": {
+    "url": "https://roco-kingdom-world-field-atlas.dewlook123.chatgpt.site/",
+    "sourceRevision": "ecfc27f8ca5182465df891a0f516278f9af9fb7f",
+    "siteVersion": 1,
+    "deploymentId": "appgdep_6ab5de65b7d48191a9c98e2202637567",
+    "sourceRevisionVerified": true
+  },
+  "captures": [
+    {
+      "filename": "images/roco-atlas-desktop-1440x1000.png",
+      "sha256": "eeac3abd2789431cc9953d4bc077355e73a45ced0a38f664ccd9c31ec00163ec",
+      "width": 1440,
+      "height": 1000,
+      "viewport": { "width": 1440, "height": 1000, "scale": 1, "mobile": false, "evidenceKind": "desktop" },
+      "captureDateTime": null,
+      "captureDateTimeStatus": "unavailable: no validated capture timestamp was recorded",
+      "state": "Overview with keyboard focus on the named Skip to guide link"
+    },
+    {
+      "filename": "images/roco-atlas-emulated-mobile-390x844.png",
+      "sha256": "dcb588963b29538eb02133b12921ce8f107773a68895656708fd2bd7916e92d9",
+      "width": 390,
+      "height": 844,
+      "viewport": { "width": 390, "height": 844, "scale": 1, "mobile": true, "touchEmulated": true, "evidenceKind": "emulated-mobile" },
+      "captureDateTime": null,
+      "captureDateTimeStatus": "unavailable: no validated capture timestamp was recorded",
+      "state": "Overview with keyboard focus on the named Skip to guide link"
+    }
+  ],
+  "runtimeReview": {
+    "targetPreflight": "exactly one page at the expected public URL before each interaction and capture phase",
+    "consoleErrors": 0,
+    "unhandledExceptions": 0,
+    "externalOriginRequests": 0,
+    "badStatusResponses": 0,
+    "resourceFailures": 0,
+    "unnamedInteractiveControls": 0,
+    "bodyHorizontalOverflow": false,
+    "desktop": { "accessibilityRootFound": true, "interactiveControlsWithNames": 33, "tabReachedNamedSkipLinkWithVisibleFocus": true },
+    "emulatedMobile": { "accessibilityRootFound": true, "interactiveControlsWithNames": 21, "tabReachedNamedSkipLinkWithVisibleFocus": true }
+  },
+  "limits": [
+    "The 390 by 844 capture is emulated and does not represent a physical device.",
+    "The focused checks do not certify all interactions, assistive technologies, or settings.",
+    "Capture date and time are unavailable."
+  ]
+}
