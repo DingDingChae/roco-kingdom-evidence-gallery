@@ -2,13 +2,13 @@
 
 ## Purpose
 
-Let readers inspect two genuine captures of the public guide and see which published revision and viewport each one represents.
+Let readers inspect four genuine captures of the guide and see which published revision and viewport each one represents. The production version 1 pair is separated from the pair captured from a local static build whose production status is not verified.
 
 ## Layout
 
 - A short dark header identifies the guide and states the gallery's purpose.
-- Two semantic figure cards place the desktop and emulated portrait captures side by side on wide screens and in one column on narrow screens.
-- Captions show the viewport, source revision, capture-time availability, and image digest.
+- Four semantic figure cards use the existing two-column layout on wide screens and one column on narrow screens.
+- Captions show the viewport, whether the image represents the production version or a local build, capture-time availability, and image digest.
 - A compact baseline note states the focused runtime findings and their limits.
 
 ## Accessibility and assets

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "galleryVersion": 1,
+  "galleryVersion": 2,
   "sourceGuide": {
     "url": "https://roco-kingdom-world-field-atlas.dewlook123.chatgpt.site/",
     "sourceRevision": "ecfc27f8ca5182465df891a0f516278f9af9fb7f",
@@ -28,6 +28,40 @@
       "captureDateTime": null,
       "captureDateTimeStatus": "unavailable: no validated capture timestamp was recorded",
       "state": "Overview with keyboard focus on the named Skip to guide link"
+    },
+    {
+      "filename": "images/roco-atlas-320x568-local-build.png",
+      "sha256": "88311a662122c6abf1402b9523b0f382263d050018e7fdac91e5c5058ccee771",
+      "width": 320,
+      "height": 568,
+      "viewport": { "width": 320, "height": 568, "scale": 1, "mobile": true, "touchEmulated": true, "evidenceKind": "local-build" },
+      "sourceKind": "local static build; source revision is not publicly linked",
+      "publicDeploymentVerified": false,
+      "captureDate": "2026-09-25",
+      "captureTimezone": "UTC",
+      "captureTime": null,
+      "captureTimeStatus": "unavailable in the capture record",
+      "targetUrlRecorded": false,
+      "targetCount": 1,
+      "keyboardPathVerified": false,
+      "runtimeReview": { "consoleErrors": 0, "unhandledExceptions": 0, "badStatusResponses": 0, "resourceFailures": 0, "unnamedInteractiveControls": 0, "bodyHorizontalOverflow": false },
+      "state": "Compact header and overview at 320 by 568; local-build capture, not a verified production deployment"
+    },
+    {
+      "filename": "images/roco-atlas-390x844-local-build.png",
+      "sha256": "ee73bf0e3aa4a94d7402e5fdb99231bbf3fba5108cfa5e215b706a80455f7ef8",
+      "width": 390,
+      "height": 844,
+      "viewport": { "width": 390, "height": 844, "scale": 1, "mobile": true, "touchEmulated": true, "evidenceKind": "local-build" },
+      "sourceKind": "local static build; source revision is not publicly linked",
+      "publicDeploymentVerified": false,
+      "captureDateTime": "2026-09-25T06:00:25.889Z",
+      "captureDateTimeStatus": "recorded in capture provenance",
+      "targetUrlRecorded": false,
+      "targetCount": 1,
+      "keyboardPathVerified": false,
+      "runtimeReview": { "consoleErrors": 0, "unhandledExceptions": 0, "badStatusResponses": 0, "resourceFailures": 0, "unnamedInteractiveControls": 0, "bodyHorizontalOverflow": false },
+      "state": "Compact header and overview at 390 by 844; local-build capture, not a verified production deployment"
     }
   ],
   "runtimeReview": {
@@ -45,6 +79,8 @@
   "limits": [
     "The 390 by 844 capture is emulated and does not represent a physical device.",
     "The focused checks do not certify all interactions, assistive technologies, or settings.",
-    "Capture date and time are unavailable."
+    "Capture date and time are unavailable for the production version 1 pair.",
+    "The 320 by 568 capture has a validated date and timezone, but its capture time is unavailable.",
+    "The two local-build captures are not tied to a verified production deployment or a publicly linked source revision."
   ]
 }

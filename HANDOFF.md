@@ -6,9 +6,12 @@ Publish a separate public evidence gallery for reviewed captures of the Roco Kin
 
 ## Implemented locally
 
-- Added a static gallery page with local PNG assets, accessible captions, source revision, deployment identity, image digests, and an explicit unavailable state for capture date and time.
-- Added project documentation, a design handoff, roadmap, and sanitized repository instructions.
-- Created the public source repository and a private Sites project registration. No version has been saved or deployed yet.
+- Extended the existing two-card layout to four cards, adding the reviewed 320×568 and 390×844 PNGs byte-for-byte with explicit local-static-build captions.
+- Updated the public page, provenance JSON, README, capture documentation, and design handoff. New public records omit local paths and the local-only source revision.
+- The 390×844 capture time is validated as 2026-09-25 06:00:25.889 UTC. The 320×568 capture date is validated as 2026-09-25 UTC; its time is unavailable.
+- The two original captures remain production version 1 evidence with timestamps unavailable.
+- The universal per-surface interface contract remains unverified. No redesign or new capture was performed.
+- Source changes and hosted deployment are not yet verified. The existing Sites project is registered, but no version has been saved or deployed.
 
 ## Evidence
 
@@ -17,9 +20,11 @@ Publish a separate public evidence gallery for reviewed captures of the Roco Kin
 - Emulated mobile capture SHA-256: `dcb588963b29538eb02133b12921ce8f107773a68895656708fd2bd7916e92d9`.
 - Both version-1 capture audit receipts validate. No test suite was run.
 - Capture date and time are unavailable; no file timestamp is substituted.
+- New local-build images: `roco-atlas-320x568-local-build.png` is 320×568 and `roco-atlas-390x844-local-build.png` is 390×844. Their image digests are recorded in `dist/provenance.json`; the source-only revision is intentionally excluded from public copy.
+- New evidence is from checked-in static output and is not proven to represent a production deployment. Keyboard navigation was not exercised.
 
 ## Remaining
 
-- Save and deploy the Sites version, change its access to public, and verify the live URL and each image independently.
-- Push the source repository to `main`, confirm the hosted `main` ref, and record the exact source revision.
-- The gallery remains unpublished until the public URL and both image files are verified anonymously.
+- Pre-dew and dew the source to `main`, then verify the hosted `main` ref.
+- Save and deploy gallery edition 2 through the existing Sites project, change its access to public, and verify anonymous page access and each of the four image requests separately.
+- The gallery remains unpublished until live page and all four image responses are verified. The broader UI contract remains incomplete even after publication.

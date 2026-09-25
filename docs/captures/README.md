@@ -1,6 +1,6 @@
 # Capture documentation
 
-This category documents how visual evidence is selected, described, and checked. It contains no game assets or third-party imagery.
+This category documents four genuine guide captures: two tied to production version 1 and two from a local static build that is not verified as production. It contains no game assets or third-party imagery.
 
 - [Capture gallery and evidence limits](gallery.md)
 
